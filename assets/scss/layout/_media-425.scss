@@ -1,0 +1,42 @@
+/** Responsive 425px **/
+
+@media (min-width: 425px) {
+
+    /** Navegacion **/
+
+    .titulo-principal {
+        margin-top: -25rem;
+        font-size: 4rem;
+    }
+
+     /** Catalogo **/
+
+    .catalogo__card {
+        width: 35rem;
+    }
+
+    /** Footer **/
+
+    .container-footer img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    /** Contacto **/
+
+    .contacto-parrafo {
+        padding: 1rem;
+    }
+
+    .formulario {
+        width: 40rem;
+    }
+
+    /** Experiencia **/
+    
+    .container-testimonios div {
+        width: 40rem;
+        height: 20rem;
+        margin-top: 4rem;
+    }
+}

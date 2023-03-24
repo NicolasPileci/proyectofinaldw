@@ -1,0 +1,24 @@
+/** Responsive 1024px **/
+
+@media (max-width: 1024px) {
+
+    /** Hero **/
+
+    .hero {
+        background-image: url("../img/hero3.jpg");
+        width: 100%;
+        height: 120rem;
+    }
+
+    /** Contacto **/
+
+    .contacto {
+        height: 80rem;
+    }
+
+    /** Servicios **/
+
+    .container-servicios__card {
+        width: 80rem; 
+    }
+}

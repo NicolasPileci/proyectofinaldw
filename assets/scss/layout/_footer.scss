@@ -1,0 +1,19 @@
+/** Footer **/
+
+.container-footer {
+    width: 100%;
+    height: 15rem;
+    margin-top: 5rem;
+    padding: 0 5rem 0 5rem;
+    background-color: #D9ACF5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        list-style: none;
+        font-size: 2rem;
+    }
+    img {
+        width: 4rem;
+    }
+}

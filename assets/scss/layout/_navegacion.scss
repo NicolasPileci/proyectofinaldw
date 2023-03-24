@@ -1,0 +1,32 @@
+/** Navegacion **/
+
+.navegacion {
+    width: 100%;
+    height: 6rem;
+    background-color: $background-navegacion;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 2rem;
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        li {
+            padding: 2rem;
+        }
+    }
+    a {
+        text-decoration: none;
+        font-size: 2rem; 
+    }
+    p {
+        font-size: 3rem;
+        color: black;
+    }
+}
+
+.navegacion a:hover {
+    color: rgb(190, 8, 8);
+} 

@@ -1,0 +1,56 @@
+/** Catalogo **/
+
+.margin-parrafo { 
+    margin-top: 10rem;
+}
+
+.catalogo-parrafo {
+    font-size: 5rem;
+    @extend .margin-parrafo;
+    font-weight: bold;
+    text-align: center;
+}
+
+.catalogo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    @extend .margin-parrafo;
+    gap: 0.5rem;
+}
+
+.catalogo__card {
+    background-color: #FDEBED;
+    margin-top: 3rem;
+    border: 1px black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 35rem;
+        height: 25rem;
+        filter: brightness(1.1);                                    /** Para volver transparente el back de la img **/
+        mix-blend-mode: multiply;                                   /** Para volver transparente el back de la img **/
+    }
+    p {
+        font-size: 2rem;
+        margin-top: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    button {
+        width: 20rem;
+        height: 5rem;
+        background-color: rgb(231, 174, 68);
+        margin: 2rem 0 2rem 0;
+        font-weight: bold;
+        text-align: center;
+        border: 1px black;
+    }
+}
+
+.catalogo__price {
+    color: rgb(130, 23, 23);
+} 

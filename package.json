@@ -1,0 +1,24 @@
+{
+  "name": "3rapreentrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/style.scss assets/css/stylescss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasPileci/2daPreEntrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasPileci/2daPreEntrega/issues"
+  },
+  "homepage": "https://github.com/NicolasPileci/2daPreEntrega#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

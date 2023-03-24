@@ -1,0 +1,105 @@
+/** Responsive 360px **/
+
+@media (max-width: 360px) {
+
+    /** Navegacion **/
+
+    .navegacion {
+        flex-direction: column;
+        width: 100%;
+        height: 50rem;
+        ul {
+            flex-direction: column;
+            align-items: center;
+        }
+        li a {
+            font-size: 3rem;
+        }
+        a p {
+            font-size: 4rem;
+        }
+    }
+
+    .titulo-principal {
+        font-size: 4rem;
+        margin-top: -2rem;
+    }
+
+    /** Hero **/
+
+    .hero {
+        background-image: url("../img/hero2.jpg");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30rem;
+        margin-bottom: -18rem;
+    }    
+
+    /** Footer **/
+
+    .container-footer ul {
+        list-style: none;
+        font-size: 1.5rem;
+    }
+
+    .container-footer img {
+        width: 2rem;
+    }
+
+    /** Catalogo **/
+
+    .catalogo {
+        flex-direction: column;
+    }
+
+    .catalogo__card {
+        width: 30rem;
+    }
+
+    .catalogo-parrafo {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    /** Servicios **/
+
+    .container-servicios__card {
+        width: 360px;
+        img {
+            width: 30rem;
+        }
+        p {
+            font-size: 2.5rem;
+            text-align: center;
+            padding: 0 2rem 0 2rem;
+        }
+    }
+
+    /** Contacto **/
+
+    .contacto-parrafo {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    .formulario {
+        margin: 2rem;
+    }
+
+    /** Experiencias **/
+
+    .testimonios-parrafo {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    .container-testimonios {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .container-testimonios div {
+        width: 30rem;
+        height: 30rem;
+    }
+}
